@@ -9,4 +9,5 @@ These are the resources we used to complete this project.
 - All Face card svgs: https://www.me.uk/cards/makeadeck.cgi 
 
 ## Youtube Tutorial
-- https://www.youtube.com/watch?v=iEPK5fppX8w 
+- Card making: https://www.youtube.com/watch?v=iEPK5fppX8w 
+- Card Animation: https://www.youtube.com/watch?v=NCLdf661ILE 
