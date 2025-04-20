@@ -2,5 +2,8 @@
 By Zoey Evans and Anna Doan
 
 # Image sources
-<ul>
-- [Heart svg]{https://freesvg.org/playing-cards-hearts-image}
+
+- Heart svg: https://freesvg.org/playing-cards-hearts-image
+- Club svg: https://freesvg.org/playing-card-club-sign
+- Spade svg: https://freesvg.org/playing-card-spade-sign
+- Diamond svg: https://freesvg.org/playing-card-diamonds-sign
