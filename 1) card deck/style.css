@@ -11,12 +11,32 @@ body{
     gap: .5em;
 }
 
-/* card layouts */
-.card {
+.container{
     --width: 5em;
     --height: calc(var(--width)*1.4);
     width: var(--width);
     height: var(--height);
+}
+
+.piece{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+   
+}
+
+.container:hover > .piece{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+
+/* card layouts */
+.card {
+    height: 100%;
+    width: 100%;
     background-color: white; 
     border: 1px solid black;
     border-radius: .25em;
@@ -29,6 +49,24 @@ body{
     position: relative;
     transform: rotate(180deg);
 }
+
+
+.card,
+.back {
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.back {
+    width: 85px;
+    height: 112px;
+    background: url('imgs/2B.svg') no-repeat center center;
+    background-size: contain;
+    transform: rotateY(180deg);
+}
+
 
 [data-suit="heart"].card, 
 [data-suit="diamond"].card {
